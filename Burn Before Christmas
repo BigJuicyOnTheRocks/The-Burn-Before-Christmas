@@ -1,0 +1,1740 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Burn Before Christmas — a cozy gathering to release, reflect, and let go of what no longer serves you.">
+
+  <title>The Burn Before Christmas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="paper-shell">
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+      <a class="brand" href="#home">
+        <span class="brand-bow">🎀</span>
+        <span>The Burn Before Christmas</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="site-nav">
+        <a href="#gathering">The Gathering</a>
+        <a href="#schedule">The Evening</a>
+        <a href="#ritual">The Ritual</a>
+        <a href="#who-is-joining">Who's Joining Us?</a>
+        <a href="#details">Details</a>
+        <a class="nav-rsvp" href="#rsvp">RSVP</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- HERO SECTION -->
+      <section class="hero framed-section" id="home">
+
+        <div class="corner-sprig sprig-left">✧ ❧ ✧</div>
+        <div class="corner-sprig sprig-right">✧ ❧ ✧</div>
+
+        <div class="hero-bow">🎀</div>
+
+        <p class="script-intro">You're Invited To</p>
+
+        <p class="hero-kicker">
+          A little gathering with a little letting go
+        </p>
+
+        <h1>
+          <span>The Burn Before</span>
+          <em>Christmas</em>
+        </h1>
+
+        <div class="flourish">✦ ───── ❦ ───── ✦</div>
+
+        <div class="hero-art-wrap">
+
+          <div class="hero-copy">
+            <p class="hero-quote">
+              A cozy gathering<br>
+              to release, reflect,<br>
+              and let go of<br>
+              what no longer<br>
+              serves you.
+            </p>
+
+            <span class="tiny-heart">♡</span>
+            <div class="hero-stars">✧　✦　✧</div>
+          </div>
+
+          <img
+            class="bunny-art"
+            src="bunny-illustration.jpg"
+            alt="A grumpy, floppy-eared bunny in pink Christmas pajamas holding a letter"
+          >
+
+          <div class="hero-side-note">
+            A little warmth.<br>
+            A little wonder.<br>
+            A fresh page.
+          </div>
+
+        </div>
+
+        <div class="hero-date">
+          <span class="date-line">
+            Saturday, December 19th
+          </span>
+
+          <span class="arrival-line">
+            Arrival: 5:30 – 6:00 PM
+          </span>
+        </div>
+
+        <a class="ornate-button" href="#schedule">
+          Come See What's Planned <span>♡</span>
+        </a>
+
+        <p class="hero-footnote">
+          The details are tucked below. The company is the best part.
+        </p>
+
+      </section>
+
+      <!-- COUNTDOWN -->
+      <section class="countdown-section framed-section">
+
+        <p class="section-eyebrow">
+          The evening is getting closer
+        </p>
+
+        <h2>Until we gather…</h2>
+
+        <div class="countdown">
+
+          <div class="time-tile">
+            <span id="days">--</span>
+            <small>Days</small>
+          </div>
+
+          <b class="time-colon">:</b>
+
+          <div class="time-tile">
+            <span id="hours">--</span>
+            <small>Hours</small>
+          </div>
+
+          <b class="time-colon">:</b>
+
+          <div class="time-tile">
+            <span id="minutes">--</span>
+            <small>Minutes</small>
+          </div>
+
+          <b class="time-colon">:</b>
+
+          <div class="time-tile">
+            <span id="seconds">--</span>
+            <small>Seconds</small>
+          </div>
+
+        </div>
+
+        <p class="countdown-caption">
+          Until the first hello, the first laugh, and the first little spark.
+        </p>
+
+      </section>
+
+      <!-- THE GATHERING -->
+      <section class="content-section framed-section" id="gathering">
+
+        <div class="section-heading">
+          <span class="ornament">❧</span>
+          <p class="section-eyebrow">A note from your hosts</p>
+          <h2>A Cozy Little Gathering</h2>
+          <span class="ornament">❧</span>
+        </div>
+
+        <p class="intro-copy">
+          The holidays can hold a lot. This evening is an invitation
+          to slow down, enjoy good food, watch a Christmas movie,
+          connect with one another, and make a little room for
+          what comes next.
+        </p>
+
+        <div class="gathering-ribbon">
+          Good food • A Movie • Connection • Community
+        </div>
+
+        <p class="small-copy">
+          Come as you are. You don't have to arrive with the right
+          words, a perfect mood, or anything figured out.
+        </p>
+
+      </section>
+
+      <!-- SCHEDULE -->
+      <section class="schedule-section framed-section" id="schedule">
+
+        <div class="section-heading">
+          <span class="ornament">✧</span>
+          <p class="section-eyebrow">A little plan for the evening</p>
+          <h2>The Evening's Festivities</h2>
+          <span class="ornament">✧</span>
+        </div>
+
+        <div class="schedule-list">
+
+          <article class="schedule-item">
+            <span class="schedule-icon">☕</span>
+            <div>
+              <h3>Arrival & Welcome</h3>
+              <p>5:30 – 6:00 PM</p>
+              <small>Settle in, say hello, and get cozy.</small>
+            </div>
+          </article>
+
+          <article class="schedule-item">
+            <span class="schedule-icon">♡</span>
+            <div>
+              <h3>Good Food & Festivities</h3>
+              <p>Before The Burn</p>
+              <small>Enjoy food, conversation, and a little holiday cheer.</small>
+            </div>
+          </article>
+
+          <article class="schedule-item">
+            <span class="schedule-icon">♨</span>
+            <div>
+              <h3>The Burning Ritual</h3>
+              <p>About 6:30 PM</p>
+              <small>An optional moment to reflect and symbolically let go.</small>
+            </div>
+          </article>
+
+          <article class="schedule-item">
+            <span class="schedule-icon">▣</span>
+            <div>
+              <h3>Christmas Movie</h3>
+              <p>After The Burn</p>
+              <small>Get comfortable and enjoy the rest of the evening.</small>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- BURNING RITUAL -->
+      <section class="ritual-section framed-section" id="ritual">
+
+        <div class="ritual-star">✦</div>
+
+        <p class="section-eyebrow">A small symbolic moment</p>
+
+        <h2>The Burning Ritual</h2>
+
+        <p>
+          Sometimes it helps to mark an ending. The optional ritual
+          is a chance to privately reflect on something or some things you are ready
+          to release, leave behind, or simply stop carrying quite so tightly.
+        </p>
+
+        <div class="ritual-note">
+          <span>♡</span>
+          <p>
+            Participation is entirely optional. You never have to
+            share what you write—or participate at all.
+          </p>
+        </div>
+
+        <div class="ritual-bottom">
+          Release what you can. Keep what helps you grow.
+        </div>
+
+      </section>
+
+            <!-- WHO'S JOINING US -->
+      <section class="content-section framed-section" id="who-is-joining">
+
+        <div class="section-heading">
+          <span class="ornament">❧</span>
+          <p class="section-eyebrow">A little gathering among familiar faces</p>
+          <h2>Who's Joining Us?</h2>
+          <span class="ornament">❧</span>
+        </div>
+
+        <p class="intro-copy">
+          This evening is just for our IOP girlies, with one special
+          addition: a sweet, discreet, and nonjudgmental friend of
+          the host who will be lending a hand with setup.
+        </p>
+
+        <div class="gathering-ribbon">
+          A Small Circle • A Cozy Evening • Familiar Faces
+        </div>
+
+        <p class="small-copy">
+          A little gathering among good people, with no judgment
+          and no pressure.
+        </p>
+
+      </section>
+
+      <!-- WHAT TO BRING -->
+      <section class="bring-section framed-section" id="bring">
+
+        <div class="section-heading">
+          <span class="ornament">❦</span>
+          <p class="section-eyebrow">A few little things</p>
+          <h2>What to Bring</h2>
+        </div>
+
+        <div class="bring-grid">
+
+          <div>
+            <span>♡</span>
+            <h3>Yourself</h3>
+            <p>Just as you are.</p>
+          </div>
+
+          <div>
+            <span>✧</span>
+            <h3>Reflection(s)</h3>
+            <p>Only if you'd like one.</p>
+          </div>
+
+          <div>
+            <span>♧</span>
+            <h3>Fun</h3>
+            <p>Optional, never expected.</p>
+          </div>
+
+          <div>
+            <span>☕</span>
+            <h3>Something Cozy</h3>
+            <p>A blanket or comfy layer.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- DETAILS -->
+      <section class="details-section framed-section" id="details">
+
+        <div class="section-heading">
+          <span class="ornament">✧</span>
+          <p class="section-eyebrow">Mark your calendar</p>
+          <h2>The Important Details</h2>
+        </div>
+
+        <div class="details-card">
+
+          <div>
+            <small>WHEN</small>
+            <strong>Saturday, December 19th, 2026</strong>
+          </div>
+
+          <div>
+            <small>ARRIVAL</small>
+            <strong>5:30 – 6:00 PM</strong>
+          </div>
+
+          <div>
+            <small>BURNING RITUAL</small>
+            <strong>About 6:30 PM</strong>
+          </div>
+
+          <div>
+            <small>WHERE</small>
+            <strong>Location will be shared privately with attendees.</strong>
+          </div>
+
+          <div>
+            <small>DRESS</small>
+            <strong>Comfortable and Cozy</strong>
+          </div>
+
+        </div>
+
+        <p class="privacy-note">
+          For everyone's privacy, the location will not be posted
+          on this public page.
+        </p>
+
+      </section>
+
+      <!-- RSVP -->
+      <section class="rsvp-section framed-section" id="rsvp">
+
+        <div class="envelope-seal">♡</div>
+
+        <p class="section-eyebrow">A little note back</p>
+
+        <h2>Will We See You There?</h2>
+
+        <p>
+          Let the hosts know whether you're planning to join.
+        </p>
+
+        <form id="rsvp-form">
+
+          <label for="guest-name">Your first name</label>
+
+          <input
+            id="guest-name"
+            name="guest-name"
+            type="text"
+            placeholder="First name"
+            required
+          >
+
+          <label for="attendance">Will you be joining?</label>
+
+          <select id="attendance" name="attendance" required>
+            <option value="">Choose one…</option>
+            <option value="yes">Yes, I'll be there!</option>
+            <option value="no">I can't make it.</option>
+          </select>
+
+          <button class="ornate-button" type="submit">
+            Send My Reply <span>♡</span>
+          </button>
+
+      
+
+        </form>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq-section framed-section">
+
+        <div class="section-heading">
+          <span class="ornament">❧</span>
+          <p class="section-eyebrow">A few things you might wonder</p>
+          <h2>Little Questions</h2>
+        </div>
+
+        <details>
+          <summary>Do I have to participate in the burning ritual?</summary>
+          <p>
+            Not at all. It is completely optional, and you are welcome
+            to enjoy the gathering without taking part.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do I have to bring something?</summary>
+          <p>
+            No. Bringing a treat or something cozy is optional.
+            Your company is enough.
+          </p>
+        </details>
+
+        <details>
+          <summary>Will the location be posted here?</summary>
+          <p>
+            No. The location will be shared privately with attendees.
+          </p>
+        </details>
+
+        <details>
+          <summary>What happens after the ritual?</summary>
+          <p>
+            We'll settle in for a Christmas movie and enjoy the
+            rest of the evening together.
+          </p>
+        </details>
+
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+      <div class="footer-bow">🎀</div>
+
+      <p class="footer-script">
+        A little warmth for the season
+      </p>
+
+      <p>The Burn Before Christmas</p>
+
+      <small>
+        Saturday, December 19th, 2026 · Come as you are.
+      </small>
+
+      <div class="footer-flourish">✦ ❦ ✦</div>
+
+    </footer>
+
+  </div>
+</body>
+</html>
+
+
+// ==========================================
+// THE BURN BEFORE CHRISTMAS
+// Website interactions
+// ==========================================
+
+
+// COUNTDOWN TIMER
+// December 19, 2026 at 5:00 PM
+
+const eventDate = new Date("December 19, 2026 17:00:00").getTime();
+
+function updateCountdown() {
+  const now = new Date().getTime();
+  const distance = eventDate - now;
+
+  const daysElement = document.getElementById("days");
+  const hoursElement = document.getElementById("hours");
+  const minutesElement = document.getElementById("minutes");
+  const secondsElement = document.getElementById("seconds");
+
+  if (distance <= 0) {
+    daysElement.textContent = "00";
+    hoursElement.textContent = "00";
+    minutesElement.textContent = "00";
+    secondsElement.textContent = "00";
+    return;
+  }
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutes = Math.floor(
+    (distance % (1000 * 60 * 60)) / (1000 * 60)
+  );
+  const seconds = Math.floor(
+    (distance % (1000 * 60)) / 1000
+  );
+
+  daysElement.textContent = String(days).padStart(2, "0");
+  hoursElement.textContent = String(hours).padStart(2, "0");
+  minutesElement.textContent = String(minutes).padStart(2, "0");
+  secondsElement.textContent = String(seconds).padStart(2, "0");
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+
+// MOBILE NAVIGATION
+
+const menuToggle = document.querySelector(".menu-toggle");
+const siteNav = document.querySelector(".site-nav");
+
+if (menuToggle && siteNav) {
+  menuToggle.addEventListener("click", () => {
+    const isOpen = siteNav.classList.toggle("open");
+
+    menuToggle.setAttribute("aria-expanded", isOpen);
+    menuToggle.textContent = isOpen ? "✕" : "☰";
+  });
+
+  // Close the menu after selecting a section
+  siteNav.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      siteNav.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.textContent = "☰";
+    });
+  });
+}
+
+
+// RSVP PREVIEW
+
+const rsvpForm = document.getElementById("rsvp-form");
+const formNote = document.getElementById("form-note");
+
+if (rsvpForm && formNote) {
+  rsvpForm.addEventListener("submit", event => {
+    event.preventDefault();
+
+    const guestName = document.getElementById("guest-name").value.trim();
+    const attendance = document.getElementById("attendance").value;
+
+    if (!guestName || !attendance) {
+      formNote.textContent = "Please complete both fields.";
+      return;
+    }
+
+    if (attendance === "yes") {
+      formNote.textContent =
+        `Thank you, ${guestName}! Your preview RSVP is ready. We'll need to connect a form service to save it.`;
+    } else {
+      formNote.textContent =
+        `Thank you for letting us know, ${guestName}. We'll miss you!`;
+    }
+
+    rsvpForm.reset();
+  });
+}
+
+
+/* ==========================================
+   THE BURN BEFORE CHRISTMAS
+   Vintage Christmas Invitation Theme
+========================================== */
+
+:root {
+  --paper: #f7dfc4;
+  --paper-light: #ffecd7;
+  --paper-deep: #eac09d;
+
+  --ink: #59231f;
+  --cranberry: #8d303b;
+  --cranberry-dark: #67252c;
+
+  --rose: #c96f78;
+  --rose-light: #e8a0a0;
+  --rose-pale: #f5c9bd;
+
+  --pine: #536348;
+  --gold: #b77a45;
+
+  --shadow: rgba(84, 36, 27, .18);
+
+  --serif: "IM Fell English", Georgia, serif;
+  --display: "DM Serif Display", Georgia, serif;
+  --script: "Great Vibes", cursive;
+  --body: "Libre Baskerville", Georgia, serif;
+}
+
+
+/* ==========================================
+   GENERAL STYLING
+========================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+
+  background:
+    radial-gradient(
+      ellipse at 15% 12%,
+      rgba(255,245,224,.72),
+      transparent 34%
+    ),
+    radial-gradient(
+      ellipse at 85% 80%,
+      rgba(193,113,85,.13),
+      transparent 36%
+    ),
+    #c99d79;
+
+  font-family: var(--body);
+  line-height: 1.7;
+}
+
+body::before {
+  content: "✧  ·  ❦  ·  ✧  ·  ❦  ·  ✧";
+
+  position: fixed;
+  inset: 0 0 auto;
+  height: 25px;
+
+  text-align: center;
+  letter-spacing: 1.2rem;
+
+  color: rgba(100,43,34,.35);
+
+  pointer-events: none;
+  z-index: 5;
+
+  font-size: 11px;
+}
+
+
+/* ==========================================
+   MAIN PAPER CONTAINER
+========================================== */
+
+.paper-shell {
+  max-width: 1120px;
+  margin: 22px auto;
+  padding: 0 24px;
+
+  background:
+    radial-gradient(
+      circle at 12% 18%,
+      rgba(255,255,255,.34),
+      transparent 22%
+    ),
+    radial-gradient(
+      circle at 86% 72%,
+      rgba(188,112,76,.08),
+      transparent 26%
+    ),
+    repeating-linear-gradient(
+      7deg,
+      rgba(117,66,42,.018) 0 1px,
+      transparent 1px 5px
+    ),
+    var(--paper);
+
+  border: 7px double #a96b4c;
+
+  outline: 1px solid rgba(255,236,205,.7);
+
+  box-shadow:
+    0 18px 55px rgba(53,26,19,.3),
+    inset 0 0 45px rgba(157,91,54,.12);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.paper-shell::before,
+.paper-shell::after {
+  content: "❧";
+
+  position: absolute;
+  top: 10px;
+
+  color: var(--rose);
+  font-size: 45px;
+
+  opacity: .75;
+  z-index: 1;
+}
+
+.paper-shell::before {
+  left: 14px;
+}
+
+.paper-shell::after {
+  right: 14px;
+  transform: scaleX(-1);
+}
+
+.framed-section {
+  position: relative;
+}
+
+
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+.site-header {
+  min-height: 76px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+  padding: 12px 34px;
+
+  border-bottom: 1px solid rgba(141,48,59,.3);
+
+  position: relative;
+  z-index: 3;
+}
+
+.brand {
+  color: var(--cranberry);
+  text-decoration: none;
+  font: 22px var(--serif);
+}
+
+.brand-bow {
+  font-size: 23px;
+  margin-right: 5px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.site-nav a {
+  color: var(--ink);
+  text-decoration: none;
+
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.site-nav a:hover {
+  color: var(--cranberry);
+}
+
+.site-nav .nav-rsvp {
+  border: 1px solid var(--cranberry);
+  border-radius: 30px;
+  padding: 7px 15px;
+  color: var(--cranberry);
+}
+
+.menu-toggle {
+  display: none;
+
+  border: 0;
+  background: transparent;
+
+  color: var(--cranberry);
+  font-size: 25px;
+}
+
+
+/* ==========================================
+   HERO / OPENING SECTION
+========================================== */
+
+.hero {
+  text-align: center;
+
+  padding: 55px clamp(18px, 6vw, 76px) 38px;
+
+  border-bottom: 1px solid rgba(141,48,59,.28);
+
+  background:
+    radial-gradient(
+      ellipse at 50% 30%,
+      rgba(255,247,227,.72),
+      transparent 62%
+    );
+}
+
+.hero::before,
+.hero::after {
+  content: "✧  ❦  ✧";
+
+  position: absolute;
+  top: 30px;
+
+  color: var(--rose);
+  font-size: 23px;
+
+  letter-spacing: .35em;
+  opacity: .75;
+}
+
+.hero::before {
+  left: 24px;
+  transform: rotate(-20deg);
+}
+
+.hero::after {
+  right: 24px;
+  transform: rotate(20deg);
+}
+
+.hero-bow {
+  font-size: 60px;
+  line-height: 1;
+
+  filter: drop-shadow(0 3px 2px var(--shadow));
+}
+
+.script-intro {
+  font: clamp(37px, 5vw, 58px) var(--script);
+
+  margin: 4px 0 -4px;
+  color: #632820;
+}
+
+.hero-kicker,
+.section-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .19em;
+
+  font-size: 10px;
+  color: var(--cranberry);
+}
+
+.hero h1 {
+  margin: 4px auto 0;
+  max-width: 820px;
+
+  color: var(--cranberry);
+
+  font: clamp(48px, 8vw, 94px)/.95 var(--display);
+
+  text-shadow: 1px 2px 0 rgba(255,255,255,.55);
+}
+
+.hero h1 span {
+  display: block;
+  font-size: .58em;
+  letter-spacing: .015em;
+}
+
+.hero h1 em {
+  display: block;
+
+  font: clamp(66px, 11vw, 126px)/1 var(--script);
+
+  font-style: normal;
+  color: #7d2632;
+}
+
+.flourish {
+  color: var(--gold);
+  letter-spacing: .18em;
+  margin: 8px 0 0;
+}
+
+
+/* ==========================================
+   BUNNY AND HERO ARTWORK
+========================================== */
+
+.hero-art-wrap {
+  display: grid;
+
+  grid-template-columns: 1fr minmax(250px, 1.2fr) 1fr;
+
+  align-items: center;
+  gap: 10px;
+
+  max-width: 800px;
+  margin: 8px auto 0;
+}
+
+.bunny-art {
+  width: 100%;
+  max-height: 420px;
+
+  object-fit: contain;
+  mix-blend-mode: multiply;
+
+  filter: drop-shadow(
+    0 7px 5px rgba(88,39,27,.12)
+  );
+}
+
+.hero-copy {
+  font: italic clamp(16px, 2vw, 22px)/1.45 var(--serif);
+  transform: rotate(-4deg);
+}
+
+.tiny-heart {
+  color: var(--cranberry);
+  font-size: 35px;
+  display: block;
+}
+
+.hero-stars {
+  color: var(--gold);
+  letter-spacing: .3em;
+}
+
+.hero-side-note {
+  font: italic 17px/1.6 var(--serif);
+
+  color: var(--cranberry);
+
+  transform: rotate(5deg);
+}
+
+
+/* ==========================================
+   DATE AND BUTTON
+========================================== */
+
+.hero-date {
+  max-width: 680px;
+  margin: 0 auto;
+
+  display: grid;
+  gap: 3px;
+}
+
+.date-line {
+  background: var(--rose-pale);
+
+  border: 2px solid #b65d62;
+  outline: 1px solid #f6cbb4;
+
+  border-radius: 12px;
+  padding: 9px 14px;
+
+  color: #76272e;
+
+  font: clamp(25px, 4vw, 39px) var(--display);
+
+  box-shadow:
+    inset 0 0 0 3px rgba(255,244,222,.55);
+}
+
+.arrival-line {
+  font: 26px var(--serif);
+
+  padding: 6px;
+
+  border-bottom: 1px solid var(--rose);
+}
+
+.ornate-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  margin: 23px auto 0;
+  padding: 11px 24px;
+
+  color: #fff3df;
+
+  background: var(--cranberry);
+
+  border: 2px solid #f2c2a7;
+  outline: 1px solid var(--cranberry);
+
+  border-radius: 30px;
+
+  text-decoration: none;
+  font: 16px var(--serif);
+
+  cursor: pointer;
+
+  transition:
+    transform .2s,
+    background .2s;
+}
+
+.ornate-button:hover {
+  transform: translateY(-2px);
+  background: var(--cranberry-dark);
+}
+
+.ornate-button span {
+  font-size: 20px;
+}
+
+.hero-footnote {
+  font: italic 13px var(--serif);
+  color: #885448;
+}
+
+
+/* ==========================================
+   COUNTDOWN
+========================================== */
+
+.countdown-section {
+  text-align: center;
+
+  padding: 35px 20px 32px;
+
+  background: rgba(198,111,116,.13);
+
+  border-bottom: 1px solid rgba(141,48,59,.25);
+}
+
+.countdown-section h2,
+.section-heading h2,
+.ritual-section h2,
+.rsvp-section h2 {
+  font: clamp(34px, 5vw, 49px) var(--display);
+
+  color: var(--cranberry);
+
+  margin: 0 0 12px;
+}
+
+.countdown {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: clamp(7px, 2vw, 18px);
+}
+
+.time-tile {
+  min-width: clamp(58px, 10vw, 95px);
+
+  padding: 10px 7px 7px;
+
+  background: rgba(255,240,218,.72);
+
+  border: 1px solid #c78278;
+
+  box-shadow:
+    inset 0 0 0 3px rgba(255,255,255,.35);
+}
+
+.time-tile span {
+  display: block;
+
+  font: clamp(29px, 5vw, 45px)/1 var(--display);
+
+  color: var(--cranberry);
+  font-variant-numeric: tabular-nums;
+}
+
+.time-tile small {
+  display: block;
+
+  margin-top: 6px;
+
+  font-size: 9px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.time-colon {
+  color: var(--cranberry);
+  font: 28px var(--display);
+}
+
+.countdown-caption {
+  font: italic 15px var(--serif);
+  margin: 13px 0 0;
+}
+
+
+/* ==========================================
+   SECTION HEADINGS AND CONTENT
+========================================== */
+
+.content-section,
+.schedule-section,
+.bring-section,
+.details-section,
+.faq-section {
+  padding: 58px clamp(20px, 7vw, 80px);
+
+  text-align: center;
+
+  border-bottom: 1px solid rgba(141,48,59,.25);
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.section-heading .section-eyebrow {
+  margin: 3px 0 0;
+}
+
+.section-heading h2 {
+  margin: 0;
+}
+
+.ornament {
+  color: var(--rose);
+  font-size: 31px;
+  display: block;
+  line-height: 1;
+}
+
+
+/* ==========================================
+   GATHERING
+========================================== */
+
+.intro-copy {
+  max-width: 700px;
+
+  margin: 0 auto 22px;
+
+  font: 20px/1.7 var(--serif);
+  text-align: center;
+}
+
+.gathering-ribbon {
+  max-width: 650px;
+
+  margin: 0 auto;
+  padding: 12px;
+
+  border-top: 1px solid var(--rose);
+  border-bottom: 1px solid var(--rose);
+
+  color: var(--cranberry);
+
+  font: 20px var(--serif);
+}
+
+.small-copy {
+  max-width: 650px;
+
+  margin: 20px auto 0;
+
+  font: italic 15px/1.8 var(--serif);
+}
+
+
+/* ==========================================
+   SCHEDULE
+========================================== */
+
+.schedule-section {
+  background: rgba(255,241,218,.42);
+}
+
+.schedule-list {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+
+  padding: 17px 10px;
+
+  border-bottom: 1px dashed rgba(141,48,59,.42);
+}
+
+.schedule-item:last-child {
+  border-bottom: 0;
+}
+
+.schedule-icon {
+  flex: 0 0 62px;
+
+  width: 62px;
+  height: 62px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid var(--rose);
+  border-radius: 50%;
+
+  color: var(--cranberry);
+  font-size: 30px;
+
+  background: rgba(245,201,189,.42);
+}
+
+.schedule-item h3 {
+  margin: 0;
+
+  font: 25px var(--display);
+  color: var(--cranberry);
+}
+
+.schedule-item p {
+  margin: 0;
+  font: 17px var(--serif);
+}
+
+.schedule-item small {
+  color: #765047;
+  font-size: 12px;
+}
+
+
+/* ==========================================
+   BURNING RITUAL
+========================================== */
+
+.ritual-section {
+  padding: 60px clamp(20px, 8vw, 100px);
+
+  text-align: center;
+  color: #fff0db;
+
+  background:
+    radial-gradient(
+      ellipse at center,
+      #a94c4b,
+      #762e36 75%
+    );
+
+  border-bottom: 1px solid #5b242b;
+}
+
+.ritual-section .section-eyebrow {
+  color: #f4c6ae;
+}
+
+.ritual-section h2 {
+  color: #fff0db;
+}
+
+.ritual-section > p:not(.section-eyebrow) {
+  max-width: 690px;
+
+  margin: 0 auto;
+
+  font: 19px/1.8 var(--serif);
+}
+
+.ritual-star {
+  color: #f2c59b;
+  font-size: 32px;
+}
+
+.ritual-note {
+  display: flex;
+
+  align-items: center;
+  gap: 15px;
+
+  max-width: 680px;
+
+  margin: 24px auto;
+  padding: 14px 20px;
+
+  border: 1px solid rgba(255,220,190,.55);
+
+  background: rgba(55,20,25,.18);
+
+  text-align: left;
+}
+
+.ritual-note span {
+  font-size: 34px;
+  color: #f5c7b5;
+}
+
+.ritual-note p {
+  margin: 0;
+  font: italic 14px/1.7 var(--serif);
+}
+
+.ritual-bottom {
+  color: #f7cbb6;
+  font: 26px var(--script);
+}
+
+
+/* ==========================================
+   WHAT TO BRING
+========================================== */
+
+.bring-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+
+.bring-grid > div {
+  padding: 18px 8px;
+
+  border: 1px solid rgba(141,48,59,.32);
+
+  background: rgba(255,242,222,.42);
+}
+
+.bring-grid span {
+  color: var(--cranberry);
+  font-size: 31px;
+}
+
+.bring-grid h3 {
+  margin: 4px 0;
+
+  color: var(--cranberry);
+  font: 21px var(--display);
+}
+
+.bring-grid p {
+  margin: 0;
+  font: italic 12px var(--serif);
+}
+
+
+/* ==========================================
+   EVENT DETAILS
+========================================== */
+
+.details-section {
+  background: rgba(255,241,218,.45);
+}
+
+.details-card {
+  max-width: 650px;
+
+  margin: 0 auto;
+  padding: 10px 24px;
+
+  border: 1px solid #c77e76;
+
+  background: rgba(255,248,231,.55);
+}
+
+.details-card div {
+  display: grid;
+
+  grid-template-columns: 150px 1fr;
+  gap: 12px;
+
+  padding: 12px 0;
+
+  border-bottom: 1px dashed rgba(141,48,59,.3);
+
+  text-align: left;
+}
+
+.details-card div:last-child {
+  border-bottom: 0;
+}
+
+.details-card small {
+  color: var(--cranberry);
+
+  letter-spacing: .14em;
+  font-size: 10px;
+}
+
+.details-card strong {
+  font: 17px var(--serif);
+}
+
+.privacy-note {
+  font: italic 12px var(--serif);
+  margin: 15px 0 0;
+}
+
+
+/* ==========================================
+   RSVP
+========================================== */
+
+.rsvp-section {
+  text-align: center;
+
+  padding: 55px 20px;
+
+  background: rgba(201,111,120,.16);
+
+  border-bottom: 1px solid rgba(141,48,59,.25);
+}
+
+.envelope-seal {
+  width: 52px;
+  height: 52px;
+
+  display: grid;
+  place-items: center;
+
+  margin: 0 auto 12px;
+
+  border-radius: 50%;
+
+  color: #fff0db;
+  background: var(--cranberry);
+
+  border: 3px double #f5c7ad;
+
+  font-size: 25px;
+}
+
+.rsvp-section > p:not(.section-eyebrow) {
+  font: 16px var(--serif);
+}
+
+#rsvp-form {
+  max-width: 420px;
+
+  margin: 20px auto 0;
+
+  text-align: left;
+}
+
+#rsvp-form label {
+  display: block;
+
+  margin: 13px 0 5px;
+
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+
+  color: var(--cranberry);
+}
+
+#rsvp-form input,
+#rsvp-form select {
+  width: 100%;
+
+  padding: 12px;
+
+  color: var(--ink);
+
+  background: rgba(255,248,231,.8);
+
+  border: 1px solid #bd7773;
+  border-radius: 3px;
+
+  font: 15px var(--serif);
+}
+
+#rsvp-form button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-note {
+  text-align: center;
+
+  font: italic 11px/1.6 var(--serif);
+
+  color: #785047;
+}
+
+
+/* ==========================================
+   FREQUENTLY ASKED QUESTIONS
+========================================== */
+
+.faq-section details {
+  max-width: 700px;
+
+  margin: 0 auto;
+  padding: 15px 5px;
+
+  border-bottom: 1px dashed rgba(141,48,59,.4);
+
+  text-align: left;
+}
+
+.faq-section summary {
+  cursor: pointer;
+
+  color: var(--cranberry);
+
+  font: 20px var(--serif);
+}
+
+.faq-section details p {
+  margin: 10px 0 0;
+  font-size: 13px;
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.site-footer {
+  padding: 32px 20px 28px;
+
+  text-align: center;
+
+  background: rgba(141,48,59,.1);
+}
+
+.footer-bow {
+  font-size: 43px;
+}
+
+.footer-script {
+  margin: 0;
+
+  font: 35px var(--script);
+  color: var(--cranberry);
+}
+
+.site-footer > p:not(.footer-script) {
+  margin: 2px 0;
+  font: 19px var(--display);
+}
+
+.site-footer small {
+  font: 11px var(--serif);
+}
+
+.footer-flourish {
+  margin-top: 12px;
+
+  color: var(--gold);
+  letter-spacing: .6em;
+}
+
+
+/* ==========================================
+   MOBILE RESPONSIVENESS
+========================================== */
+
+@media (max-width: 760px) {
+
+  .paper-shell {
+    margin: 0;
+    padding: 0 12px;
+    border-width: 4px;
+  }
+
+  .site-header {
+    padding: 12px 8px;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    display: none;
+
+    flex-basis: 100%;
+    flex-direction: column;
+
+    gap: 12px;
+    padding: 12px 0 8px;
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .hero {
+    padding: 42px 12px 30px;
+  }
+
+  .hero-art-wrap {
+    grid-template-columns: 1fr 1.6fr;
+  }
+
+  .hero-copy {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 15px;
+  }
+
+  .bunny-art {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .hero-side-note {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 14px;
+  }
+
+  .hero-date {
+    margin-top: 8px;
+  }
+
+  .date-line {
+    font-size: 27px;
+  }
+
+  .arrival-line {
+    font-size: 21px;
+  }
+
+  .bring-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .details-card {
+    padding: 8px 12px;
+  }
+
+  .details-card div {
+    grid-template-columns: 105px 1fr;
+  }
+
+  .details-card strong {
+    font-size: 15px;
+  }
+}
+
+
+/* ==========================================
+   SMALL PHONE SCREENS
+========================================== */
+
+@media (max-width: 420px) {
+
+  .hero h1 {
+    font-size: 43px;
+  }
+
+  .hero h1 em {
+    font-size: 70px;
+  }
+
+  .hero-art-wrap {
+    gap: 0;
+  }
+
+  .hero-copy {
+    font-size: 13px;
+  }
+
+  .hero-side-note {
+    font-size: 12px;
+  }
+
+  .countdown {
+    gap: 4px;
+  }
+
+  .time-tile {
+    min-width: 54px;
+    padding: 8px 3px;
+  }
+
+  .time-tile span {
+    font-size: 27px;
+  }
+
+  .time-tile small {
+    font-size: 8px;
+  }
+
+  .time-colon {
+    font-size: 20px;
+  }
+
+  .schedule-item {
+    gap: 12px;
+  }
+
+  .schedule-icon {
+    flex-basis: 48px;
+
+    width: 48px;
+    height: 48px;
+
+    font-size: 24px;
+  }
+
+  .schedule-item h3 {
+    font-size: 21px;
+  }
+
+  .details-card div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+}
