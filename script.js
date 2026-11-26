@@ -19,6 +19,8 @@ function updateCountdown() {
   const minutesElement = document.getElementById("minutes");
   const secondsElement = document.getElementById("seconds");
 
+  if (!daysElement || !hoursElement || !minutesElement || !secondsElement) return;
+
   if (distance <= 0) {
     daysElement.textContent = "00";
     hoursElement.textContent = "00";
@@ -61,7 +63,6 @@ if (menuToggle && siteNav) {
     menuToggle.textContent = isOpen ? "✕" : "☰";
   });
 
-  // Close the menu after selecting a section
   siteNav.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", () => {
       siteNav.classList.remove("open");
@@ -72,13 +73,15 @@ if (menuToggle && siteNav) {
 }
 
 
-// RSVP PREVIEW
+// RSVP FORM — GOOGLE SHEETS CONNECTION
 
 const rsvpForm = document.getElementById("rsvp-form");
 const formNote = document.getElementById("form-note");
 
+const scriptURL = "https://script.google.com/macros/s/AKfycbzl7KxVlHiupITBnZ3AtnI6PIhcfavHeNRjHvXTIZLPegmWvJmjgbUyHEQOSZeCHbXuUQ/exec";
+
 if (rsvpForm && formNote) {
-  rsvpForm.addEventListener("submit", event => {
+  rsvpForm.addEventListener("submit", async event => {
     event.preventDefault();
 
     const guestName = document.getElementById("guest-name").value.trim();
@@ -89,14 +92,40 @@ if (rsvpForm && formNote) {
       return;
     }
 
-    if (attendance === "yes") {
-      formNote.textContent =
-        `Thank you, ${guestName}! Your preview RSVP is ready. We'll need to connect a form service to save it.`;
-    } else {
-      formNote.textContent =
-        `Thank you for letting us know, ${guestName}. We'll miss you!`;
-    }
+    const submitButton = rsvpForm.querySelector('button[type="submit"]');
+    submitButton.disabled = true;
+    formNote.textContent = "Sending your RSVP...";
 
-    rsvpForm.reset();
+    const formData = new URLSearchParams();
+    formData.append("firstName", guestName);
+    formData.append("attendance", attendance);
+    formData.append("notes", "");
+
+    try {
+      await fetch(scriptURL, {
+        method: "POST",
+        mode: "no-cors",
+        body: formData
+      });
+
+      if (attendance === "yes") {
+        formNote.textContent =
+          `Thank you, ${guestName}! Your RSVP has been submitted. We can't wait to see you!`;
+      } else {
+        formNote.textContent =
+          `Thank you for letting us know, ${guestName}. We'll miss you!`;
+      }
+
+      rsvpForm.reset();
+
+    } catch (error) {
+      formNote.textContent =
+        "Something went wrong. Please try again or contact the host.";
+
+      console.error("RSVP submission error:", error);
+
+    } finally {
+      submitButton.disabled = false;
+    }
   });
 }
